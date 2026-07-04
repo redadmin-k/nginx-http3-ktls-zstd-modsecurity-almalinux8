@@ -158,6 +158,8 @@ export PKG_CONFIG_PATH=/opt/modsecurity/lib64/pkgconfig${PKG_CONFIG_PATH:+:$PKG_
 export LD_LIBRARY_PATH=/opt/modsecurity/lib64${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
 
 sed -i \
+    -e 's|-Wl,-rpath,/usr/local/modsecurity/lib||g' \
+    -e 's|-Wl,-rpath,/opt/modsecurity/lib64||g' \
     -e 's|/usr/local/modsecurity/include|/opt/modsecurity/include|g' \
     -e 's|/usr/local/modsecurity/lib|/opt/modsecurity/lib64|g' \
     -e 's|/usr/local/modsecurity|/opt/modsecurity|g' \
