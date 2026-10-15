@@ -1,22 +1,24 @@
-2026-10-01 11:12:44,443 - Mock Version: 6.8
-2026-10-01 11:12:44,446 - Start(bootstrap): chroot init
-2026-10-01 11:12:44,490 - Start(bootstrap): cleaning package manager metadata
-2026-10-01 11:12:44,491 - Finish(bootstrap): cleaning package manager metadata
-2026-10-01 11:12:44,997 - Finish(bootstrap): chroot init
-2026-10-01 11:12:44,998 - Start: chroot init
-2026-10-01 11:12:45,004 - Start: unpacking root cache
-2026-10-01 11:12:49,156 - Finish: unpacking root cache
-2026-10-01 11:12:49,161 - Start: cleaning package manager metadata
-2026-10-01 11:12:49,230 - Finish: cleaning package manager metadata
-2026-10-01 11:12:51,852 - Start: dnf4 update
-2026-10-01 11:13:59,730 - Finish: dnf4 update
-2026-10-01 11:14:00,126 - Finish: chroot init
-2026-10-01 11:14:00,126 - Start: build phase for nginx-1.30.5-1.alma8.src.rpm
-2026-10-01 11:14:00,127 - Start: build setup for nginx-1.30.5-1.alma8.src.rpm
-2026-10-01 11:14:51,696 - Finish: build setup for nginx-1.30.5-1.alma8.src.rpm
-2026-10-01 11:14:51,696 - Start: rpmbuild nginx-1.30.5-1.alma8.src.rpm
-2026-10-01 11:14:51,698 - Start: Outputting list of installed packages
-2026-10-01 11:14:52,002 - Finish: Outputting list of installed packages
-2026-10-01 11:20:59,367 - Finish: rpmbuild nginx-1.30.5-1.alma8.src.rpm
-2026-10-01 11:20:59,739 - Finish: build phase for nginx-1.30.5-1.alma8.src.rpm
-2026-10-01 11:20:59,753 - Finish: run
+2026-10-15 09:24:49,860 - Mock Version: 6.9
+2026-10-15 09:24:49,864 - Start(bootstrap): chroot init
+2026-10-15 09:24:49,873 - Start(bootstrap): cleaning package manager metadata
+2026-10-15 09:24:49,875 - Finish(bootstrap): cleaning package manager metadata
+2026-10-15 09:24:50,668 - Finish(bootstrap): chroot init
+2026-10-15 09:24:50,669 - Start: chroot init
+2026-10-15 09:24:50,674 - Start: unpacking root cache
+2026-10-15 09:24:56,422 - Finish: unpacking root cache
+2026-10-15 09:24:56,424 - Start: cleaning package manager metadata
+2026-10-15 09:24:56,969 - Finish: cleaning package manager metadata
+2026-10-15 09:24:57,843 - Start: dnf4 update
+2026-10-15 09:26:17,243 - Start: creating root cache
+2026-10-15 09:26:31,287 - Finish: creating root cache
+2026-10-15 09:26:31,287 - Finish: dnf4 update
+2026-10-15 09:26:32,328 - Finish: chroot init
+2026-10-15 09:26:32,328 - Start: build phase for nginx-1.30.6-1.alma8.src.rpm
+2026-10-15 09:26:32,329 - Start: build setup for nginx-1.30.6-1.alma8.src.rpm
+2026-10-15 09:27:21,233 - Finish: build setup for nginx-1.30.6-1.alma8.src.rpm
+2026-10-15 09:27:21,234 - Start: rpmbuild nginx-1.30.6-1.alma8.src.rpm
+2026-10-15 09:27:21,236 - Start: Outputting list of installed packages
+2026-10-15 09:27:21,544 - Finish: Outputting list of installed packages
+2026-10-15 09:33:10,244 - Finish: rpmbuild nginx-1.30.6-1.alma8.src.rpm
+2026-10-15 09:33:10,599 - Finish: build phase for nginx-1.30.6-1.alma8.src.rpm
+2026-10-15 09:33:10,605 - Finish: run
