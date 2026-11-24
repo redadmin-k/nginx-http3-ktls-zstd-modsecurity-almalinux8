@@ -1,22 +1,24 @@
-2026-11-19 01:21:51,419 - Mock Version: 6.9
-2026-11-19 01:21:51,422 - Start(bootstrap): chroot init
-2026-11-19 01:21:51,430 - Start(bootstrap): cleaning package manager metadata
-2026-11-19 01:21:51,430 - Finish(bootstrap): cleaning package manager metadata
-2026-11-19 01:21:52,385 - Finish(bootstrap): chroot init
-2026-11-19 01:21:52,386 - Start: chroot init
-2026-11-19 01:21:52,391 - Start: cleaning package manager metadata
-2026-11-19 01:21:52,448 - Finish: cleaning package manager metadata
-2026-11-19 01:21:53,040 - Start: installing minimal buildroot with dnf
-2026-11-19 01:28:37,345 - Finish: installing minimal buildroot with dnf
-2026-11-19 01:28:37,842 - Start: creating root cache
-2026-11-19 01:28:49,966 - Finish: creating root cache
-2026-11-19 01:28:49,976 - Finish: chroot init
-2026-11-19 01:28:50,274 - Start: build phase for nginx-1.30.7-1.alma8.src.rpm
-2026-11-19 01:28:50,275 - Start: build setup for nginx-1.30.7-1.alma8.src.rpm
-2026-11-19 01:31:06,885 - Finish: build setup for nginx-1.30.7-1.alma8.src.rpm
-2026-11-19 01:31:06,885 - Start: rpmbuild nginx-1.30.7-1.alma8.src.rpm
-2026-11-19 01:31:06,888 - Start: Outputting list of installed packages
-2026-11-19 01:31:07,191 - Finish: Outputting list of installed packages
-2026-11-19 01:41:22,673 - Finish: rpmbuild nginx-1.30.7-1.alma8.src.rpm
-2026-11-19 01:41:23,013 - Finish: build phase for nginx-1.30.7-1.alma8.src.rpm
-2026-11-19 01:41:23,015 - Finish: run
+2026-11-24 20:47:27,559 - Mock Version: 6.9
+2026-11-24 20:47:27,563 - Start(bootstrap): chroot init
+2026-11-24 20:47:28,319 - Start(bootstrap): cleaning package manager metadata
+2026-11-24 20:47:28,319 - Finish(bootstrap): cleaning package manager metadata
+2026-11-24 20:47:45,406 - Finish(bootstrap): chroot init
+2026-11-24 20:47:45,407 - Start: chroot init
+2026-11-24 20:47:45,412 - Start: unpacking root cache
+2026-11-24 20:48:12,301 - Finish: unpacking root cache
+2026-11-24 20:48:12,510 - Start: cleaning package manager metadata
+2026-11-24 20:48:17,490 - Finish: cleaning package manager metadata
+2026-11-24 20:48:39,577 - Start: dnf4 update
+2026-11-24 21:05:25,783 - Start: creating root cache
+2026-11-24 21:09:05,757 - Finish: creating root cache
+2026-11-24 21:09:05,758 - Finish: dnf4 update
+2026-11-24 21:09:16,909 - Finish: chroot init
+2026-11-24 21:09:16,909 - Start: build phase for nginx-1.30.8-1.alma8.src.rpm
+2026-11-24 21:09:16,910 - Start: build setup for nginx-1.30.8-1.alma8.src.rpm
+2026-11-24 21:16:02,894 - Finish: build setup for nginx-1.30.8-1.alma8.src.rpm
+2026-11-24 21:16:02,896 - Start: rpmbuild nginx-1.30.8-1.alma8.src.rpm
+2026-11-24 21:16:02,899 - Start: Outputting list of installed packages
+2026-11-24 21:16:03,202 - Finish: Outputting list of installed packages
+2026-11-24 21:50:43,462 - Finish: rpmbuild nginx-1.30.8-1.alma8.src.rpm
+2026-11-24 21:50:43,776 - Finish: build phase for nginx-1.30.8-1.alma8.src.rpm
+2026-11-24 21:50:43,779 - Finish: run
